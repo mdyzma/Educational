@@ -47,9 +47,10 @@ object Lists {
       if (xs.isEmpty) {
         throw new java.util.NoSuchElementException()
       }
-      else{
-        if(xs.head >= max(xs.tail)) xs.head
-        else max(xs.tail)
+      val tailMax =  if (xs.tail.isEmpty)  xs.head else max(xs.tail)
+      if (xs.head >= tailMax){
+        xs.head
       }
+      else  tailMax;
     }
   }
