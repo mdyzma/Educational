@@ -3,6 +3,11 @@ Educational materials
 
 
 
-In this folder you will finfd various assignments of view popular internet courses.
+In this folder you will find various assignments from fiew popular internet courses I have taken.
+
+
+Have fun.
+
+Michal
 
 
